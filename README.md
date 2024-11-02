@@ -77,23 +77,60 @@ Note: The pynput library enables you to control and monitor the mouse and keyboa
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-Add caption explaining what this shows
+![code compilation successfull picture](https://github.com/user-attachments/assets/09845e29-2477-454e-af31-f9762e71f666)
+This image shows the successfull compilation of python program.
 
-![Screenshot2](Add screenshot 2 here with proper name)
-Add caption explaining what this shows
+![cursor moving picture](https://github.com/user-attachments/assets/7405670f-e0e3-4795-ac10-ac46f3ddc4e1)
+This image shows the uncontrollable movement of mouse cursor.
 
-![Screenshot3](Add screenshot 3 here with proper name)
-Add caption explaining what this shows
+![cursor stopped picture](https://github.com/user-attachments/assets/429557b9-f6a6-4134-89de-5bb2d1cbbd99)
+This image shows the completion of program running...we click 'esc' to stop the program.
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-Add caption explaining your workflow
+![Workflow](https://github.com/user-attachments/assets/ecd62f5c-8e63-421f-8e28-557fb3fa512e)
+
+
+Start
+
+1. Program Initialization
+
+Set up variables and initialize the mouse cursor position.
+2. Main Loop
+
+Check for ESC Keypress:
+If ESC is pressed, go to Step 3.
+Randomize Mouse Movement:
+Generate random values for x and y coordinates.
+Move the mouse cursor to the new position.
+Delay:
+Pause the program for a short duration.
+Repeat Step 2
+3. Program Termination
+
+Exit the program.
+End
+
+Explanation:
+
+Program Initialization:
+
+The program starts by setting up necessary variables and initializing the mouse cursor's initial position.
+Main Loop:
+
+The program enters a loop that continuously checks for the ESC keypress.
+If the ESC key is not pressed, the program generates random values for the x and y coordinates of the mouse cursor.
+The mouse cursor is then moved to the newly calculated position.
+A short delay is introduced to control the speed of the cursor movement.
+The loop then repeats, continuing to generate random movements and check for the ESC keypress.
+Program Termination:
+
+If the ESC key is pressed, the program breaks out of the main loop and proceeds to the termination step.
+The program is then closed, ending the uncontrollable mouse cursor movement.
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-Explain what the video demonstrates
+[Add your demo video link here](https://github.com/user-attachments/assets/d49a4385-aeea-4041-9483-30ba6868b327)
+This video shows. The working of program.
 
 # Additional Demos
 [Add any extra demo materials/links]
