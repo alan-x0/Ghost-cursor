@@ -1,0 +1,14 @@
+import time
+from pynput.mouse import Controller
+
+mouse = Controller()
+screen_width, screen_height = 1920, 1080
+
+def main():
+    print("The cursor will remain stationary. No movement will occur.")
+
+    while True:
+        time.sleep(1)
+
+if _name_ == "_main_":
+    main()
