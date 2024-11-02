@@ -1,0 +1,26 @@
+import random
+import time
+from pynput.mouse import Controller
+
+# Initialize the mouse controller
+mouse = Controller()
+
+# Screen dimensions (adjust if needed)
+screen_width = 1920  # Screen width
+screen_height = 1080  # Screen height
+
+# Function to move the mouse pointer
+def move_mouse():
+    while True:
+        # Generate random x and y coordinates within screen bounds
+        x = random.randint(0, screen_width)
+        y = random.randint(0, screen_height)
+        
+        # Move the mouse to the random position
+        mouse.position = (x, y)
+        
+        # Optional: print current position (for fun/logging)
+        print(f"Mouse moved to: ({x}, {y})")
+        
+        # Delay before the next move
+        time.sleep(1)  # Move every 1 second (adjust as desired)
